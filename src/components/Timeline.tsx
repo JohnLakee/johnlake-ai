@@ -16,6 +16,7 @@ const experiences = [
       "Delivered specialized security assessments including Ransomware Defense and Validated Architecture Review (VADR)",
       "Performed comprehensive Security Program Assessments: Zero Trust, IAM, Change Management, Vulnerability Management",
       "Developed cloud mapping tool aligning SLED Cybersecurity Requirements with IaC pilot (GCP)",
+      "Spearheaded enterprise-wide AI security initiatives, successfully integrating frontier models (Claude Enterprise, Gemini for Government) while establishing governance and security controls to drive safe AI adoption",
     ],
   },
   {

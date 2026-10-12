@@ -5,6 +5,14 @@ import { GraduationCap, Award } from "lucide-react";
 
 const education = [
   {
+    degree: "M.S. Management of Information Technology",
+    concentration: "",
+    school: "University of Virginia · McIntire School of Commerce",
+    location: "Charlottesville, VA",
+    honors: "Class of 2027",
+    years: "2026 – 2027",
+  },
+  {
     degree: "M.S. Homeland Security",
     concentration: "concentration Cybersecurity",
     school: "University of the District of Columbia",

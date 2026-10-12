@@ -7,6 +7,7 @@ const certifications = [
   "CISSP",
   "AWS Security Specialty",
   "GCP Professional Security Engineer",
+  "GCP Professional Cloud Architect",
   "CISA",
   "PMP",
   "CEH",

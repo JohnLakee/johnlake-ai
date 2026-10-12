@@ -30,6 +30,7 @@ const certifications = [
   "AWS Solutions Architect Associate",
   "AWS Cloud Practitioner",
   "GCP Professional Cloud Security Engineer",
+  "GCP Professional Cloud Architect",
   "GCP Generative AI",
   "GCP Cloud Digital Leader",
   "Azure Fundamentals",

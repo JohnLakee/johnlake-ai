@@ -4,6 +4,24 @@ import { motion } from "framer-motion";
 
 const impacts = [
   {
+    tag: "Google Public Sector · DoD",
+    title: "DoD IL5 Agentic AI Security Architecture (Project Aria)",
+    bullets: [
+      "Authored the DoD IL5 ATO Security Strategy and 28-control SRTM across 6 domains (IAM, Agentic Security, Network, Data, DevSecOps, Observability)",
+      "Secured cross-cloud AWS/GCP Vertex AI agent workflows via Workload Identity Federation (WIF)",
+      "Established Compliance Inheritance model, VPC Service Controls, Pydantic schema validation, and Semgrep/TruffleHog CI/CD checks",
+    ],
+  },
+  {
+    tag: "Google Public Sector · AI Automation",
+    title: "GPSS Security Scribe AI Agent",
+    bullets: [
+      "Built and deployed an AI sub-agent to automatically audit PSO proposals and SOWs against Google SAIF, FedRAMP, and DoD compliance baselines",
+      "Merged Proposal Reviewer and Security Reviewer into a unified comprehensive agent for streamlined workflow",
+      "Standardized Gemini Enterprise, Gemini for Government, and Classified AI SOW templates organization-wide",
+    ],
+  },
+  {
     tag: "Mandiant · Google Public Sector",
     title: "$3M Defense Industrial Base Security Overhaul",
     bullets: [
@@ -13,12 +31,12 @@ const impacts = [
     ],
   },
   {
-    tag: "Amazon Web Services",
-    title: "Securing AI/ML Infrastructure for Government",
+    tag: "Google Public Sector · AWS",
+    title: "Babel Street Multi-Cloud Security Assessment",
     bullets: [
-      "Led ATO workstreams for AWS SageMaker (AI/ML) into classified environments",
-      "Produced full RMF/NIST 800-53 body of evidence including CONOPS, Security Impact Analysis, Critical Control Lists",
-      "Established Secure Research Enclaves (GovCloud) for DIB academic institutions under CMMC 2.0",
+      "Led security workstream for partner enablement supporting AWS-to-GCP replatforming",
+      "Executed AWS Multi-Account Security Assessment analyzing 83,000+ configurations across 7 accounts",
+      "Identified critical database exposures and delivered structured remediation guidance",
     ],
   },
   {
@@ -57,7 +75,7 @@ export default function ImpactCards() {
           <div className="w-16 h-1 bg-accent-cyan rounded-full mb-12" />
         </motion.div>
 
-        <div className="grid md:grid-cols-2 gap-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {impacts.map((impact, i) => (
             <motion.div
               key={impact.title}

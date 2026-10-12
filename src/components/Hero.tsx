@@ -64,7 +64,7 @@ export default function Hero() {
         >
           <p className="text-lg md:text-xl text-text-secondary mb-2">
             <span className="font-semibold text-text-primary">John Lake</span>{" "}
-            | TS/SCI Cleared | Senior Cybersecurity Consultant & Emerging Technology
+            | TS/SCI Cleared | Security Engineer & Emerging Technology Cybersecurity Consultant
           </p>
           <p className="text-text-secondary">
             Bridging the gap between mission-critical defense and the future of

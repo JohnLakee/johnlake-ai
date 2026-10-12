@@ -5,18 +5,18 @@ import { motion } from "framer-motion";
 const impacts = [
   {
     tag: "Google Public Sector · DoD",
-    title: "DoD IL5 Agentic AI Security Architecture (Project Aria)",
+    title: "DoD IL5 Agentic AI Security Architecture",
     bullets: [
-      "Authored the DoD IL5 ATO Security Strategy and 28-control SRTM across 6 domains (IAM, Agentic Security, Network, Data, DevSecOps, Observability)",
+      "Authored a DoD IL5 ATO Security Strategy and 28-control SRTM across 6 domains (IAM, Agentic Security, Network, Data, DevSecOps, Observability)",
       "Secured cross-cloud AWS/GCP Vertex AI agent workflows via Workload Identity Federation (WIF)",
       "Established Compliance Inheritance model, VPC Service Controls, Pydantic schema validation, and Semgrep/TruffleHog CI/CD checks",
     ],
   },
   {
     tag: "Google Public Sector · AI Automation",
-    title: "GPSS Security Scribe AI Agent",
+    title: "AI-Powered Security Compliance Agent",
     bullets: [
-      "Built and deployed an AI sub-agent to automatically audit PSO proposals and SOWs against Google SAIF, FedRAMP, and DoD compliance baselines",
+      "Built and deployed an AI sub-agent to automatically audit proposals and SOWs against Google SAIF, FedRAMP, and DoD compliance baselines",
       "Merged Proposal Reviewer and Security Reviewer into a unified comprehensive agent for streamlined workflow",
       "Standardized Gemini Enterprise, Gemini for Government, and Classified AI SOW templates organization-wide",
     ],
@@ -32,7 +32,7 @@ const impacts = [
   },
   {
     tag: "Google Public Sector · AWS",
-    title: "Babel Street Multi-Cloud Security Assessment",
+    title: "National Security Firm Multi-Cloud Assessment",
     bullets: [
       "Led security workstream for partner enablement supporting AWS-to-GCP replatforming",
       "Executed AWS Multi-Account Security Assessment analyzing 83,000+ configurations across 7 accounts",
